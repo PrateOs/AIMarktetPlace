@@ -1,0 +1,49 @@
+.header-container {
+  width: 100%;
+  display: flex;
+}
+
+.header-appbar {
+  background-color: #000000 !important;
+  top: 0;
+  left: 0;
+  box-shadow: none !important;
+}
+
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.home-button {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+.get-started-button {
+  color: #ffffff !important;
+  background-color: #e12625 !important;
+}
+.dark-header-container {
+  background-color: #121212;
+}
+
+.dark-header-appbar {
+  background-color: #1f1f1f !important;
+}
+
+.theme-toggle-button {
+  margin-left: 12px;
+}
+
